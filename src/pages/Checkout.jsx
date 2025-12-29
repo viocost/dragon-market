@@ -7,11 +7,11 @@ function Checkout() {
   const { cart, updateQuantity, removeFromCart, getTotal, clearCart } = useCart()
   const [orderPlaced, setOrderPlaced] = useState(false)
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    address: '',
-    kingdom: '',
-    portalCode: ''
+    name: 'Gandalf the Grey',
+    email: 'gandalf@middleearth.realm',
+    address: '123 Bag End Lane, Hobbiton',
+    kingdom: 'The Shire',
+    portalCode: 'ME-12345'
   })
 
   const handleInputChange = (e) => {
